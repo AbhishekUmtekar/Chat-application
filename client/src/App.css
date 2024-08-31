@@ -1,0 +1,15 @@
+.chat-background {
+    background-image: url('./assets/images/milky-way-starry-sky-night-sky-star-956999.jpeg');
+    background-size: contain;
+    background-position: center;
+}
+
+.contact {
+    background: #101124f7 !important;
+}
+
+.contact-name {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
