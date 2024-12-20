@@ -26,7 +26,7 @@ try {
 }
 const jwtSecet = "dasfasdfsadfs";
 const bcryptSalt = bcrypt.genSaltSync(10)
-app.use(cors({ credentials: true, origin: ["http://localhost:5173"] }))
+app.use(cors({ credentials: true, origin: ["https://mern-chat-app-dgdsgkgfgua5htcz.centralindia-01.azurewebsites.net"] }))
 
 const getUserDataFromRequest = async (req) => {
     return new Promise((resolve, reject) => {
